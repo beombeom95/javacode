@@ -1,0 +1,39 @@
+package exam.ifTest;
+import java.util.Scanner;
+
+public class Game {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int computer = (int)(Math.random()*100)+1;
+		int count = 0;
+		int count1 = 0;
+		int count2 = 0;
+		int count3 = 0;
+		int counts = 0;
+
+		while(count<=9) {
+			System.out.println("숫자를 입력해주세요.");
+			int user = scan.nextInt();
+			if(user>=1 & user<=100){
+				if(user>computer) {
+					System.out.println("더 작은수를 입력하세요.");
+					count1 = ++count1;
+				}else if (user<computer) {
+					System.out.println("더 큰수를 입려하세요.");
+					count2 = ++count2;
+				}else {
+					System.out.println("정답입니다.");
+
+				}
+			}else {
+				System.out.println("입력 숫자를 확인하세요");
+				count3 = ++count3;
+			}
+		}
+		counts = count1+count2+count3;
+		System.out.println(count+"번 시도해서" +"몇점입니다");
+	}
+}
+// 10번 기회를 줘서 점수 구하기
+//

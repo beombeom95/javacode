@@ -1,0 +1,15 @@
+package exam.operator;
+
+public class apple {
+
+	public static void main(String[] args) {
+		int apple = 300;
+		int box = 12;
+		int a = (int) Math.ceil(300/12);
+		float b = 300%12;
+		System.out.println(a,b);
+		
+
+	}
+
+}

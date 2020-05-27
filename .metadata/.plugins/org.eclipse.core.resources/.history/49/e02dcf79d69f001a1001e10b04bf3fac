@@ -1,0 +1,14 @@
+package exam.ifTest;
+
+public class Iftest {
+
+	public static void main(String[] args) {
+		
+		if(1>0) {
+			System.out.println("인쇄");
+			System.out.println("!!");
+		}
+
+	}
+
+}

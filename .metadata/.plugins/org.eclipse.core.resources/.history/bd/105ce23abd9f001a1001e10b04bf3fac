@@ -1,0 +1,16 @@
+package exam.operator;
+
+public class apple {
+
+	public static void main(String[] args) {
+		int apple = 300;
+		int box = 12;
+		int a = (int) Math.ceil(apple/box);
+		int b = apple%box;
+		System.out.println("사과박스" + a);
+		System.out.println("남은사과" + b);
+		s
+
+	}
+
+}

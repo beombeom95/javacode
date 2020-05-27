@@ -1,0 +1,15 @@
+package exam.operator;
+
+public class apple {
+
+	public static void main(String[] args) {
+		int apple = 200;
+		int box = 12;
+		int a = (int) Math.ceil(apple/box);
+		int b = apple%box;
+		System.out.println("사과의 총 갯수는" + apple);
+		System.out.println(a+"box"+b+"개");
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package exam.ifTest;
+import java.util.Scanner;
+
+public class Iftest {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int computer = (int)(Math.random()*6)+1;
+		
+		
+		int user = scan.nextInt();
+		System.out.println(computer); //주사위
+		
+		
+		if(computer==user) {
+			System.out.println("정답입니다!");
+		}else {
+			System.out.println("오답입니다!");
+		}
+	}
+
+}
